@@ -15,5 +15,6 @@ body {
 
   text-align: center;
   color: #fff;
+  text-shadow: rgb(221, 62, 84) 2px 2px;
   background: linear-gradient(to right, rgb(221, 62, 84), rgb(107, 229, 133));
 }

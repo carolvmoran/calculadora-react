@@ -4,6 +4,7 @@
     border-radius: 5px;
     overflow: hidden;
     background: linear-gradient(to left, rgb(221, 62, 84), rgb(107, 229, 133));
+    box-shadow: 5px 5px 5px rgb(143, 82, 90);
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 1fr 48px 48px 48px 48px 48px;

@@ -11,3 +11,26 @@
     border-bottom: var(--border-button);
     outline: none;
 }
+
+.button:active {
+    background: linear-gradient(to left, rgb(221, 62, 84), rgb(107, 229, 133));
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background: linear-gradient(to right, rgb(221, 62, 84), rgb(107, 229, 133));
+    color: #fff;
+    text-shadow: rgb(221, 62, 84) -1px -1px;
+}
+.button.operation:active {
+    background: var(--bg-button);
+    color: #000;
+    text-shadow: rgb(221, 62, 84) -1px -1px;
+}
