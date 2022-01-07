@@ -1,0 +1,7 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: linear-gradient(to left, rgb(221, 62, 84), rgb(107, 229, 133));
+}
