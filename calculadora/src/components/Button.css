@@ -4,12 +4,11 @@
 }
 
 .button {
+    background: transparent;
     font-size: 1.4em;
-    background: var(--bg-button);
     border: none;
-    border-right: var(--border-button);
-    border-bottom: var(--border-button);
     outline: none;
+    border-radius: 6px;
 }
 
 .button:active {
@@ -25,12 +24,29 @@
 }
 
 .button.operation {
-    background: linear-gradient(to right, rgb(221, 62, 84), rgb(107, 229, 133));
-    color: #fff;
-    text-shadow: rgb(221, 62, 84) -1px -1px;
+    background: transparent;
+    border-radius: 6px;
 }
 .button.operation:active {
-    background: var(--bg-button);
+    background: linear-gradient(to right, rgb(221, 62, 84), rgb(107, 229, 133));
     color: #000;
+    text-shadow: rgb(221, 62, 84) -1px -1px;
+}
+
+.button .btn-3d {
+    background: linear-gradient(to right, rgb(236, 233, 230), rgb(255, 255, 255));
+    border: var(--border-button);
+    border-radius: 4px;
+    margin: 0px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.button:active .btn-3d {
+    background: linear-gradient(to right, rgb(236, 233, 230), rgb(255, 255, 255));
+}
+
+.button.operation .btn-3d {
+    background: linear-gradient(to right, rgb(221, 62, 84), rgb(107, 229, 133));
+    color: #fff;
     text-shadow: rgb(221, 62, 84) -1px -1px;
 }
